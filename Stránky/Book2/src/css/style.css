@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.top-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+    padding-top: 136px;
+    padding-bottom: 253px;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-text{
+    width: 70%;
+    margin-right: 130px;
+    margin-left: 31px;  
+}
+.main-image{
+    order: -1;
+
+}
+.main-image img{
+    width: 100%;
+}
+.headline{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 23px;
+
+}
+.sub-headline{
+    font-size: 30px;
+    margin-bottom: 41px;
+    display: block;
+    font-weight: 400;
+
+}
+.description{
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 27px;
+
+}
+.price{
+    font-size: 48px;
+    font-weight: 400;
+    color: #313131;
+    line-height: 27px;
+    margin-bottom: 77px;
+    display: block;
+}
+.btn{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius:  5px;
+    text-align: center;
+    margin-right: 36px;
+    line-height: 27px;
+}
+.blue{
+    padding: 22px 66px 22px 64px;
+    background-color: #4572D7;
+    color: #FFFFFF;
+    border: 2px solid #4572d7;
+}
+.white{
+    padding: 22px 74px 22px 76px;
+    border: 2px solid #4572d7;
+    color: #4572D7;
+}
+
+.shipping_payment{
+    padding-top: 88px;
+    background: #f2f2f2;
+    padding-bottom: 102px;
+}
+.shipping_payment-headline{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 86px;
+}
+.shipping_payment-wrap{
+    display: flex;
+}
+.shipping_payment-item{
+    width: 25%;
+    margin-right: 39px;
+    margin-left: 72px;
+    text-align: center;
+    
+}
+.shipping_payment-item span{
+    display: block;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-top: 23px;
+    line-height: 22px;
+    color: #333333;
+}
+.shipping_payment-item img{
+    max-height: 38px;
+    min-height: 38px;
+}
+
+
+
+.people{
+    padding-top: 88px;
+    padding-bottom: 110px;
+}
+.people-headline{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #333333;
+}
+.people-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.people-item{
+    width: 23%;
+    margin-bottom: 35px;
+}
+.people-item img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+@media(max-width:1170px){
+    .main{
+        flex-direction: column;
+    }
+    .top-header{
+        padding-top: 80px;
+        padding-bottom: 130px;
+    }
+    .main-image{
+        width: 50%;
+        align-self: flex-start;
+        align-self: center;
+        margin-top: 100px;
+        order: 1;
+    }
+    .buttons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width:930px){
+
+    .shipping_payment-item{
+        width: 50%;
+        margin-right: 0px;
+        margin-left:0px;
+        margin-bottom: 70px;
+    }
+    .shipping_payment-wrap{
+        flex-wrap: wrap;
+    }
+    .people-wrap{
+        flex-wrap: wrap;
+    }
+    .people-item{
+        width: 46%;
+        margin-bottom: 50px;
+    }
+    .people{
+        padding-bottom: 70px;
+    }
+}
+
+@media(max-width:700px){
+.btn{
+    width: 100%;
+}
+.white{
+    padding: 22px 0px;
+}
+.shipping_payment{
+    padding-bottom: 60px;
+}
+}
+@media(max-width:500px){
+    .main-image{
+        width: 60%;
+    }
+    .shipping_payment-item{
+        width: 100%;
+    }
+    .people{
+        padding-bottom: 50px;
+    }
+}
+
