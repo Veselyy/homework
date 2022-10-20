@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19" width="19" height="19">
+	<title>-e-instagram</title>
+	<defs>
+		<image width="19" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAeJJREFUOE+lVF1W2mAUnAm1PlZXIF1BYQWlK5CuoPhAQoh9cAXACnyoIXzhQVyBdAW1KzCuQFyB9rG2ZHo+zMdBPPy0zUNyktzMnTuTO0RxxInpgjwEUHHPtrhmIMdR0OzZWtpTf5BmAt4BGEO62QLkqYS0jS2BLGr5VRaMOgLrx63m162BisK+MXWJl5B6LFjdRi3/498AnSXDkYDR57B5FQ/SSwBlxoNUILtu7mXAJEnKKpUOOJ3ehWE4se/jNK0gx7XEi+Ow2YjNsAOpuxLsSzKsedTpkiFZLp5YNrbJHHwdmOsMYAKhl4MTDyqD6Nhx4KEa+X42/xPWgpnUguhxd6d6cnT04D46PT/fe/3z17W9j1r+241gln7O0i2pRjsILpY17BvzSeLocXdn3zVaqVmh1Td6qLV9//sLsDR9rxxXufjBajczZNWYTq9NzBZ1W+tm/KTZ/SuqFgTBD8fOGPPmt5iBYBT45Y2a2QI3qnWTlN3ZCaSyxK51c3HEtWO6bjNATyMIB3PdiLs8Z8NptRWzRdGthvmUe15JD4v/1rMaZ8C/7uYzMLubwv5/p8bZYHhIyEZX72WekfM12Zgiks2zOoGbdsuvzMBmjiSmS7JehORGnFk2AjeSxlEYWJfxBw6dVEseoBDfAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="-e-instagram" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>
